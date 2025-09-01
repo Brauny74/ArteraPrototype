@@ -1,0 +1,503 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UpperBodyMask
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Root
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_L_FaceEye
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_L_FaceEye/J_Adj_L_FaceEye_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_R_FaceEye
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_R_FaceEye/J_Adj_R_FaceEye_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Bip_C_Head
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.004
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.004/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.005
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.004/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.005/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.006
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.004/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.005/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.006/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.007
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.004/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.005/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.006/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.007/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.007_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.008
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.008/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.009
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.008/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.009/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.010
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.008/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.009/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.010/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.011
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.008/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.009/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.010/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.011/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.011_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.012
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.012/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.013
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.012/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.013/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.014
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.012/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.013/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.014/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.015
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.012/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.013/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.014/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.015/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.015_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.016
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.016/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.017
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.016/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.017/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.018
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.016/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.017/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.018/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.019
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.016/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.017/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.018/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.019/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.019_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.transfer
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.transfer/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.transfer/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.001/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.transfer/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.001/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.002/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.003
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.transfer/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.001/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.002/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.003/user_VRoid_CustomItem_2dfbd4b61da14c71b5635c384875c0d5.tran.003_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.004
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.004/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.005
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.004/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.005/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.006
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.004/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.005/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.006/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.007
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.004/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.005/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.006/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.007/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.007_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.008
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.008/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.009
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.008/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.009/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.010
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.008/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.009/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.010/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.011
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.008/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.009/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.010/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.011/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.011_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.012
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.012/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.013
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.012/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.013/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.014
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.012/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.013/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.014/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.015
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.012/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.013/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.014/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.015/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.015_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.016
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.016/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.017
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.016/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.017/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.018
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.016/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.017/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.018/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.019
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.016/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.017/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.018/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.019/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.019_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.transfer
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.transfer/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.transfer/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.001/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.transfer/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.001/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.002/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.003
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.transfer/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.001/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.002/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.003/user_VRoid_CustomItem_3e47c04879d5474f8c6ea21fa3faba69.tran.003_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Neck
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_UpperChest
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_UpperChest
+      Collider.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_UpperChest
+      Collider.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Hand
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3/J_Bip_L_Index3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3/J_Bip_L_Little3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2/J_Bip_L_Middle3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2/J_Bip_L_Middle3/J_Bip_L_Middle3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3/J_Bip_L_Ring3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3/J_Bip_L_Thumb3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_LowerArm
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_LowerArm
+      Collider.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_LowerArm
+      Collider.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_LowerArm
+      Collider.003
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_UpperArm
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_UpperArm
+      Collider.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_UpperArm
+      Collider.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmInside_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmInside_01/J_Sec_L_TopsUpperArmInside_end_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmInside_01/J_Sec_L_TopsUpperArmInside_end_01/J_Sec_L_TopsUpperArmInside_end_01_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmInside_01/J_Sec_L_TopsUpperArmInside_end_01/J_Sec_L_TopsUpperArmInside_end_01_end/J_Sec_L_TopsUpperArmInside_end_01_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmOutside_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmOutside_01/J_Sec_L_TopsUpperArmOutside_end_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmOutside_01/J_Sec_L_TopsUpperArmOutside_end_01/J_Sec_L_TopsUpperArmOutside_end_01_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Sec_L_TopsUpperArmOutside_01/J_Sec_L_TopsUpperArmOutside_end_01/J_Sec_L_TopsUpperArmOutside_end_01_end/J_Sec_L_TopsUpperArmOutside_end_01_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Hand
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3/J_Bip_R_Index3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3/J_Bip_R_Little3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3/J_Bip_R_Middle3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2/J_Bip_R_Ring3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2/J_Bip_R_Ring3/J_Bip_R_Ring3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3/J_Bip_R_Thumb3_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_LowerArm
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_LowerArm
+      Collider.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_LowerArm
+      Collider.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_LowerArm
+      Collider.003
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_UpperArm
+      Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_UpperArm
+      Collider.001
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_UpperArm
+      Collider.002
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmInside_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmInside_01/J_Sec_R_TopsUpperArmInside_end_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmInside_01/J_Sec_R_TopsUpperArmInside_end_01/J_Sec_R_TopsUpperArmInside_end_01_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmInside_01/J_Sec_R_TopsUpperArmInside_end_01/J_Sec_R_TopsUpperArmInside_end_01_end/J_Sec_R_TopsUpperArmInside_end_01_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmOutside_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmOutside_01/J_Sec_R_TopsUpperArmOutside_end_01
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmOutside_01/J_Sec_R_TopsUpperArmOutside_end_01/J_Sec_R_TopsUpperArmOutside_end_01_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Sec_R_TopsUpperArmOutside_01/J_Sec_R_TopsUpperArmOutside_end_01/J_Sec_R_TopsUpperArmOutside_end_01_end/J_Sec_R_TopsUpperArmOutside_end_01_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1/J_Sec_L_Bust2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1/J_Sec_L_Bust2/J_Sec_L_Bust2_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1/J_Sec_L_Bust2/J_Sec_L_Bust2_end/J_Sec_L_Bust2_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1/J_Sec_R_Bust2
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1/J_Sec_R_Bust2/J_Sec_R_Bust2_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1/J_Sec_R_Bust2/J_Sec_R_Bust2_end/J_Sec_R_Bust2_end_end
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Spine Collider
+    m_Weight: 1
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase/J_Bip_L_ToeBase_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_UpperLeg Collider
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_UpperLeg Collider.001
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_UpperLeg Collider.002
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack_01/J_Sec_L_SkirtBack_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack_01/J_Sec_L_SkirtBack_end_01/J_Sec_L_SkirtBack_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack_01/J_Sec_L_SkirtBack_end_01/J_Sec_L_SkirtBack_end_01_end/J_Sec_L_SkirtBack_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront_01/J_Sec_L_SkirtFront_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront_01/J_Sec_L_SkirtFront_end_01/J_Sec_L_SkirtFront_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront_01/J_Sec_L_SkirtFront_end_01/J_Sec_L_SkirtFront_end_01_end/J_Sec_L_SkirtFront_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtSide_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtSide_01/J_Sec_L_SkirtSide_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtSide_01/J_Sec_L_SkirtSide_end_01/J_Sec_L_SkirtSide_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtSide_01/J_Sec_L_SkirtSide_end_01/J_Sec_L_SkirtSide_end_01_end/J_Sec_L_SkirtSide_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegBack_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end_01/J_Sec_R_TopsUpperLegBack_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end_01/J_Sec_R_TopsUpperLegBack_end_01_end/J_Sec_R_TopsUpperLegBack_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegFront_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegFront_01/J_Sec_L_TopsUpperLegFront_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegFront_01/J_Sec_L_TopsUpperLegFront_end_01/J_Sec_L_TopsUpperLegFront_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegFront_01/J_Sec_L_TopsUpperLegFront_end_01/J_Sec_L_TopsUpperLegFront_end_01_end/J_Sec_L_TopsUpperLegFront_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegSide_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegSide_01/J_Sec_L_TopsUpperLegSide_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegSide_01/J_Sec_L_TopsUpperLegSide_end_01/J_Sec_L_TopsUpperLegSide_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_TopsUpperLegSide_01/J_Sec_L_TopsUpperLegSide_end_01/J_Sec_L_TopsUpperLegSide_end_01_end/J_Sec_L_TopsUpperLegSide_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase/J_Bip_R_ToeBase_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_UpperLeg Collider
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_UpperLeg Collider.001
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_UpperLeg Collider.002
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack_01/J_Sec_R_SkirtBack_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack_01/J_Sec_R_SkirtBack_end_01/J_Sec_R_SkirtBack_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack_01/J_Sec_R_SkirtBack_end_01/J_Sec_R_SkirtBack_end_01_end/J_Sec_R_SkirtBack_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront_01/J_Sec_R_SkirtFront_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront_01/J_Sec_R_SkirtFront_end_01/J_Sec_R_SkirtFront_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront_01/J_Sec_R_SkirtFront_end_01/J_Sec_R_SkirtFront_end_01_end/J_Sec_R_SkirtFront_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtSide_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtSide_01/J_Sec_R_SkirtSide_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtSide_01/J_Sec_R_SkirtSide_end_01/J_Sec_R_SkirtSide_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtSide_01/J_Sec_R_SkirtSide_end_01/J_Sec_R_SkirtSide_end_01_end/J_Sec_R_SkirtSide_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegBack_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end
+      1_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end
+      1_01/J_Sec_R_TopsUpperLegBack_end 1_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegBack_01/J_Sec_R_TopsUpperLegBack_end
+      1_01/J_Sec_R_TopsUpperLegBack_end 1_01_end/J_Sec_R_TopsUpperLegBack_end 1_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegFront_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegFront_01/J_Sec_R_TopsUpperLegFront_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegFront_01/J_Sec_R_TopsUpperLegFront_end_01/J_Sec_R_TopsUpperLegFront_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegFront_01/J_Sec_R_TopsUpperLegFront_end_01/J_Sec_R_TopsUpperLegFront_end_01_end/J_Sec_R_TopsUpperLegFront_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegSide_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegSide_01/J_Sec_R_TopsUpperLegSide_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegSide_01/J_Sec_R_TopsUpperLegSide_end_01/J_Sec_R_TopsUpperLegSide_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_TopsUpperLegSide_01/J_Sec_R_TopsUpperLegSide_end_01/J_Sec_R_TopsUpperLegSide_end_01_end/J_Sec_R_TopsUpperLegSide_end_01_end_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01/J_Opt_C_CatTail7_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01/J_Opt_C_CatTail7_01/J_Opt_C_CatTail8_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01/J_Opt_C_CatTail7_01/J_Opt_C_CatTail8_01/J_Opt_C_CatTail8_end_01
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01/J_Opt_C_CatTail7_01/J_Opt_C_CatTail8_01/J_Opt_C_CatTail8_end_01/J_Opt_C_CatTail8_end_01_end
+    m_Weight: 0
+  - m_Path: Armature/Root/J_Bip_C_Hips/J_Opt_C_CatTail1_01/J_Opt_C_CatTail2_01/J_Opt_C_CatTail3_01/J_Opt_C_CatTail4_01/J_Opt_C_CatTail5_01/J_Opt_C_CatTail6_01/J_Opt_C_CatTail7_01/J_Opt_C_CatTail8_01/J_Opt_C_CatTail8_end_01/J_Opt_C_CatTail8_end_01_end/J_Opt_C_CatTail8_end_01_end_end
+    m_Weight: 0
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Face
+    m_Weight: 0
