@@ -111,6 +111,18 @@ namespace TopDownShooter
             _animator.SetBool("Running", false);
         }
 
+        public void StartRun()
+        {
+            _animator.SetBool("Walking", false);
+            _animator.SetBool("Running", true);
+        }
+
+        public void StopRun()
+        {
+            _animator.SetBool("Walking", true);
+            _animator.SetBool("Running", false);
+        }
+
         public void SetWalkDirection(Vector2 direction)
         {
             _animator.SetFloat("NormalX", direction.x);

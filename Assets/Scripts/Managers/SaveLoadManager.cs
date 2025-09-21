@@ -26,7 +26,7 @@ namespace TopDownShooter
 
         public void Save()
         {
-            var fullPath = Path.Combine(Application.persistentDataPath, FileName);
+            var fullPath = Path.Combine(Application.persistentDataPath, FileName);            
             foreach (var saveable in  _saveables)
             {
                 saveable.Save(ref _gameData);
@@ -52,7 +52,7 @@ namespace TopDownShooter
         {
             string jsonData;
             var fullPath = Path.Combine(Application.persistentDataPath, FileName);
-            if (File.Exists(Application.persistentDataPath + FileName))
+            if (File.Exists(fullPath))
             {
                 try
                 {

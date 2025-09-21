@@ -12,6 +12,20 @@ namespace TopDownShooter
 
         private PlayerBrain[] players;
 
+        public Transform GetClosestPlayer(Vector3 pos)
+        {
+            var output = players[0].transform;
+            foreach (var player in players)
+            {
+                if (Vector3.Distance(player.transform.position, pos) <
+                    Vector3.Distance(output.position, pos))
+                {
+                    output = player.transform;
+                }
+            }
+            return output;
+        }
+
         public void Quit()
         {
             Application.Quit();

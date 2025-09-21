@@ -55,7 +55,7 @@ namespace TopDownShooter
         /// <summary>
         /// Called to actually shoot the weapon. It's a primitive state machine, so shouldn't be overridden.
         /// To override attack, override PerformAttack()
-        /// It's primitive, because only state really does something.
+        /// It's primitive, because only one state really does something.
         /// </summary>
         /// <returns>true is shot successfuly, false otherwise (because of cooldown)</returns>
         public virtual bool Shoot()
