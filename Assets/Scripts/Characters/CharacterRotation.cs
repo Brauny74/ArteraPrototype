@@ -43,10 +43,6 @@ namespace TopDownShooter
                 normal = new Vector2(x, y);
             }
 
-            DebugUI.Instance.LookVector = _lookDirection.ToString();
-            DebugUI.Instance.MoveVector = _moveDirection.ToString();
-            DebugUI.Instance.AnimVector = normal.ToString();
-
             _character.SetWalkDirection(normal);
         }
 

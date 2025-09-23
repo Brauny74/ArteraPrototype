@@ -26,6 +26,11 @@ namespace TopDownShooter
             character = GetComponent<Character>();
         }
 
+        private void Start()
+        {
+            character.Health.OnDeath.AddListener(SaveLoadManager.Instance.LoadAutoSave);
+        }
+
         public void FixedUpdate()
         {
             HandleInput();

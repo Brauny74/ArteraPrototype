@@ -15,7 +15,7 @@ namespace TopDownShooter
 
         public enum STATE
         {
-            IDLE, PATROL, PURSUE, ATTACK
+            IDLE, PATROL, PURSUE, ATTACK, DEATH
         };
 
         public enum STAGE
@@ -35,7 +35,11 @@ namespace TopDownShooter
             brain = _brain;
         }
 
-        public virtual void Enter() { currentStage = STAGE.UPDATE; }
+        public virtual void Enter()
+        { 
+            DebugUI.Instance.EnemyState = state;
+            currentStage = STAGE.UPDATE;
+        }
 
         public virtual void Process() { currentStage = STAGE.UPDATE; }
 
@@ -59,6 +63,11 @@ namespace TopDownShooter
                     return nextState;
             }
             return this.state;
+        }
+
+        protected void SetRotation(Vector3 movToPos)
+        {
+            brain.Char.SetWalkDirection(Vector2.up);
         }
 
         protected bool CanSeePlayer()

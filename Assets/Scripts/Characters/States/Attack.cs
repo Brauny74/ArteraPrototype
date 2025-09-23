@@ -8,6 +8,7 @@ namespace TopDownShooter
     public class Attack : State
     {
         [SerializeField] private float playerDistanceAttack;
+        private Transform playerTransform;
 
         public override void Initialize(EnemyBrain _brain)
         {
@@ -18,19 +19,21 @@ namespace TopDownShooter
         public override void Enter()
         {
             base.Enter();
+            brain.Char.StopWalk();
             brain.Agent.isStopped = true;
+            playerTransform = GameManager.Instance.GetClosestPlayer(brain.transform.position);
         }
 
         public override void Process()
         {
+            brain.Char.transform.LookAt(playerTransform.position);
             if (!CanAttackPlayer())
             {
                 nextState = STATE.IDLE;
                 currentStage = STAGE.EXIT;
                 return;
             }
-            brain.Char.Rotation.SetLookDirection(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
-            brain.Char.Rotation.SetMoveDirection(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
+            SetRotation(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
             brain.Char.WeaponHandle.Shoot();
         }
 
@@ -56,7 +59,7 @@ namespace TopDownShooter
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, playerDistancePursue);
+            Gizmos.DrawWireSphere(transform.position, playerDistanceAttack);
         }
     }
 }

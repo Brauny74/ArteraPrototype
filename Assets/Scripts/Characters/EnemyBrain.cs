@@ -9,15 +9,17 @@ namespace TopDownShooter
 {
     public class EnemyBrain : MonoBehaviour
     {
-        [Tooltip("An object containing State components, if null, defaults to this objecft.")]
-        [SerializeField]
         
-        NavMeshAgent agent;
+        [SerializeField]
+        private NavMeshAgent agent;
         public NavMeshAgent Agent
             { get { return agent; } }
-        
+
+        [Tooltip("An object containing State components, if null, defaults to this objecft.")]
         [SerializeField]
         private EnemyStateMachine stateMachine;
+
+        [SerializeField] private Transform mesh;
 
         Character character;
         public Character Char
@@ -33,6 +35,10 @@ namespace TopDownShooter
 
         private void Update()
         {
+            if(mesh != null)
+            {
+                mesh.localPosition = Vector3.zero;
+            }
             stateMachine.ProcessCurrentState();
         }
 

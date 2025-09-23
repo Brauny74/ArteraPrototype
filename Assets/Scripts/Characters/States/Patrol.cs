@@ -34,8 +34,7 @@ namespace TopDownShooter
         {
             base.Enter();
             brain.Char.StartWalk();
-            currentDest = patrolPath.GetClosestPoint(brain.transform.position);
-            brain.Agent.SetDestination(currentDest.position);
+            SetNewDestination(patrolPath.GetClosestPoint(brain.transform.position));
             brain.Agent.speed = patrolSpeed;
             brain.Agent.isStopped = false;
         }
@@ -49,12 +48,9 @@ namespace TopDownShooter
                 return;
             }
 
-            if (brain.Agent.remainingDistance < 0.1)
+            if (brain.Agent.remainingDistance < brain.Agent.stoppingDistance)
             {
-                currentDest = patrolPath.GetNextPoint(currentDest);
-                brain.Agent.SetDestination(currentDest.position);
-                brain.Char.Rotation.SetLookDirection(currentDest.position);
-                brain.Char.Rotation.SetMoveDirection(currentDest.position);
+                SetNewDestination(patrolPath.GetNextPoint(currentDest));
             }
             
             currentIdleCooldown -= Time.deltaTime;
@@ -72,6 +68,13 @@ namespace TopDownShooter
         public override void Exit()
         {
             base.Exit();
+        }
+
+        private void SetNewDestination(Transform newDest)
+        {
+            currentDest = newDest;
+            brain.Agent.SetDestination(currentDest.position);
+            SetRotation(currentDest.position);
         }
 
         private void OnDrawGizmosSelected()

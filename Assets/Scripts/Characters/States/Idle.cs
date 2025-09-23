@@ -21,6 +21,7 @@ namespace TopDownShooter
         {
             base.Enter();
             brain.Agent.isStopped = true;
+            SetRotation(Random.rotation.eulerAngles);
             brain.Char.StopWalk();
         }
 

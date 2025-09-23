@@ -13,6 +13,7 @@ namespace TopDownShooter
         {
             id = System.Guid.NewGuid().ToString();
         }
+        public string Id { get { return id; } }
 
         [SerializeField]
         public WeaponAttachment _weaponAttachment
@@ -99,6 +100,8 @@ namespace TopDownShooter
 
         public void StartWalk()
         {
+            if (_animator == null)
+                return;
             _animator.SetBool("Idle", false);
             _animator.SetBool("Walking", true);
             _animator.SetBool("Running", false);
@@ -106,6 +109,8 @@ namespace TopDownShooter
 
         public void StopWalk()
         {
+            if (_animator == null)
+                return;
             _animator.SetBool("Idle", true);
             _animator.SetBool("Walking", false);
             _animator.SetBool("Running", false);
@@ -113,25 +118,34 @@ namespace TopDownShooter
 
         public void StartRun()
         {
+            if (_animator == null)
+                return;
             _animator.SetBool("Walking", false);
             _animator.SetBool("Running", true);
         }
 
         public void StopRun()
         {
+            if (_animator == null)
+                return;
             _animator.SetBool("Walking", true);
             _animator.SetBool("Running", false);
         }
 
         public void SetWalkDirection(Vector2 direction)
         {
+            if (_animator == null)
+                return;
             _animator.SetFloat("NormalX", direction.x);
             _animator.SetFloat("NormalY", direction.y);
         }
 
         public void SetDeath()
         {
-            _animator.SetBool("Death", false);
+            if (_animator == null)
+                return;
+            _animator.applyRootMotion = true;
+            _animator.SetBool("Alive", false);
         }
 
         public void Die()

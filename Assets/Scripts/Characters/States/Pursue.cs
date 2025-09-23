@@ -9,6 +9,8 @@ namespace TopDownShooter
         [SerializeField] private float playerDistanceAttack;
         [SerializeField] private float pursueSpeed;
 
+        Transform playerTransform;
+
         public override void Initialize(EnemyBrain _brain)
         {
             base.Initialize(_brain);
@@ -20,15 +22,15 @@ namespace TopDownShooter
             base.Enter();
             brain.Char.StartRun();
             brain.Agent.speed = pursueSpeed;
-            //Good enough for single player, needs tweaking for multiplayer
-            brain.Agent.SetDestination(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
+            playerTransform = GameManager.Instance.GetClosestPlayer(brain.transform.position);
+            brain.Agent.SetDestination(playerTransform.position);
             brain.Agent.isStopped = false;
         }
 
         public override void Process()
         {
-            brain.Char.Rotation.SetLookDirection(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
-            brain.Char.Rotation.SetMoveDirection(GameManager.Instance.GetClosestPlayer(brain.transform.position).position);
+            SetRotation(playerTransform.position);
+            brain.Agent.SetDestination(playerTransform.position);
             if (CanAttackPlayer())
             {
                 nextState = STATE.ATTACK;
@@ -48,7 +50,7 @@ namespace TopDownShooter
         private bool CanAttackPlayer()
         {
             Vector3 direction = brain.transform.position -
-                GameManager.Instance.GetClosestPlayer(brain.transform.position).position;
+                playerTransform.position;
             if (direction.magnitude < playerDistanceAttack)
             {
                 if (!Physics.Raycast(brain.transform.position, direction, playerDistanceAttack, obstacleLayerMask))
@@ -61,9 +63,9 @@ namespace TopDownShooter
 
         private void OnDrawGizmosSelected()
         {
-            Gizmos.color = Color.yellowGreen;
+            Gizmos.color = Color.blue;
             Gizmos.DrawWireSphere(transform.position, playerDistancePursue);
-            Gizmos.color = Color.darkRed;
+            Gizmos.color = Color.pink;
             Gizmos.DrawWireSphere(transform.position, playerDistanceAttack);
         }
     }

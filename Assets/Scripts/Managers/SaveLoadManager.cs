@@ -10,7 +10,10 @@ namespace TopDownShooter
     public class SaveLoadManager : Singleton<SaveLoadManager>
     {
         [SerializeField]
-        private string FileName;
+        private string MainSaveSlot;
+
+        [SerializeField]
+        private string AutoSaveSlot;
 
         private List<ISaveable> _saveables = new List<ISaveable>();
         private List<Character> _characters = new List<Character>();
@@ -22,11 +25,17 @@ namespace TopDownShooter
             _characters = new List<Character>(FindObjectsByType<Character>(FindObjectsSortMode.None));
             _saveables = FindAllSaveables();
             SubscribeToCharacterDeath();
+            Save(AutoSaveSlot);
         }
 
         public void Save()
         {
-            var fullPath = Path.Combine(Application.persistentDataPath, FileName);            
+            Save(MainSaveSlot);
+        }
+
+        private void Save(string fileName)
+        {
+            var fullPath = Path.Combine(Application.persistentDataPath, fileName);            
             foreach (var saveable in  _saveables)
             {
                 saveable.Save(ref _gameData);
@@ -50,8 +59,18 @@ namespace TopDownShooter
 
         public void Load()
         {
+            Load(MainSaveSlot);
+        }
+
+        public void LoadAutoSave()
+        {
+            Load(AutoSaveSlot);
+        }
+
+        private void Load(string fileName)
+        {
             string jsonData;
-            var fullPath = Path.Combine(Application.persistentDataPath, FileName);
+            var fullPath = Path.Combine(Application.persistentDataPath, fileName);
             if (File.Exists(fullPath))
             {
                 try
@@ -80,6 +99,7 @@ namespace TopDownShooter
         {
             foreach (var character in _characters)
             {
+                character.Save(ref _gameData);
                 character.OnDeath += CharacterDeath;
             }
         }
