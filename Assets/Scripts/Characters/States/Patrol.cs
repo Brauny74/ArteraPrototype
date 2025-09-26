@@ -41,6 +41,15 @@ namespace TopDownShooter
 
         public override void Process()
         {
+            if(TimeManager.Instance.IsPaused)
+            {
+                brain.Agent.isStopped = true;
+                return; 
+            }else
+            {
+                brain.Agent.isStopped = false;
+            }
+
             if (CanSeePlayer())
             {
                 nextState = STATE.PURSUE;

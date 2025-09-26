@@ -49,9 +49,10 @@ namespace TopDownShooter
             }
         }
 
-        private void ToggleMainMenu()
+        public void ToggleMainMenu()
         {
             _mainMenu?.gameObject.SetActive(!_mainMenu.gameObject.activeInHierarchy);
+            TimeManager.Instance.IsPaused = _mainMenu.gameObject.activeInHierarchy;
         }
     }
 }

@@ -26,6 +26,9 @@ namespace TopDownShooter
 
         public override void Process()
         {
+            if (TimeManager.Instance.IsPaused)
+            { return; }
+
             brain.Char.transform.LookAt(playerTransform.position);
             if (!CanAttackPlayer())
             {

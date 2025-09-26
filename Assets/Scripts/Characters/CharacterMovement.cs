@@ -78,7 +78,7 @@ namespace TopDownShooter
                     movementSpeed += acceleration * Time.fixedDeltaTime;
                 }
             }
-
+            Debug.Log("HandleMovement");
              _character.BodyController.SetMovement(_direction * movementSpeed * Time.fixedDeltaTime);
         }
 

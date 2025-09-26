@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.TextCore.Text;
@@ -13,7 +14,11 @@ namespace TopDownShooter
         {
             id = System.Guid.NewGuid().ToString();
         }
-        public string Id { get { return id; } }
+        [SerializeField]
+        private bool saveDeath = true;
+        public bool SaveDeath { get { return saveDeath; } }
+        
+
 
         [SerializeField]
         public WeaponAttachment _weaponAttachment
@@ -90,7 +95,7 @@ namespace TopDownShooter
             foreach (CharacterAbility ability in _abilities)
             {
                 ability.PhysicsProcessUpdate();
-            }
+            }   
         }
 
         public void StopCharacter()
@@ -196,8 +201,7 @@ namespace TopDownShooter
                 WeaponHandle.SetWeapon(gameData.Characters[id].WeaponName);
                 WeaponHandle.CurrentWeaponAmmo = gameData.Characters[id].CurrentWeaponAmmo;
             }
-
-            transform.position = gameData.Characters[id].Position;
+            _bodyContorller?.SetPosition(gameData.Characters[id].Position);
             transform.rotation = gameData.Characters[id].Rotation;
         }
     }

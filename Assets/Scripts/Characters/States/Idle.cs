@@ -27,6 +27,9 @@ namespace TopDownShooter
 
         public override void Process()
         {
+            if (TimeManager.Instance.IsPaused)
+            { return; }
+
             if (CanSeePlayer())
             {
                 nextState = STATE.PURSUE;

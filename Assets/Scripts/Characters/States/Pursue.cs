@@ -29,6 +29,16 @@ namespace TopDownShooter
 
         public override void Process()
         {
+            if (TimeManager.Instance.IsPaused)
+            {
+                brain.Agent.isStopped = true;
+                return;
+            }
+            else
+            {
+                brain.Agent.isStopped = false;
+            }
+
             SetRotation(playerTransform.position);
             brain.Agent.SetDestination(playerTransform.position);
             if (CanAttackPlayer())

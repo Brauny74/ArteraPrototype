@@ -41,11 +41,12 @@ namespace TopDownShooter
                 saveable.Save(ref _gameData);
             }
             try
-            {                               
+            {
+                File.WriteAllText(fullPath, string.Empty);
                 using (FileStream fs = File.OpenWrite(fullPath))
                 {
                     using (StreamWriter sw = new StreamWriter(fs))
-                    {
+                    {                        
                         sw.Write(_gameData.ToString());
                     }
                 }
@@ -87,6 +88,7 @@ namespace TopDownShooter
                     {
                         saveable.Load(_gameData);
                     }
+                    Debug.Log($"Loaded from {fullPath}");
                 }
                 catch (Exception e)
                 {
@@ -99,8 +101,8 @@ namespace TopDownShooter
         {
             foreach (var character in _characters)
             {
-                character.Save(ref _gameData);
-                character.OnDeath += CharacterDeath;
+                if(character.SaveDeath)
+                    character.OnDeath += CharacterDeath;
             }
         }
 

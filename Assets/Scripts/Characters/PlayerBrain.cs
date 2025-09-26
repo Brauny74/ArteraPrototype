@@ -97,7 +97,6 @@ namespace TopDownShooter
 
         public void OnPause()
         {
-            TimeManager.Instance.IsPaused = TimeManager.Instance.IsPaused ? false : true;
             OnPauseEvent?.Invoke();
         }
     }

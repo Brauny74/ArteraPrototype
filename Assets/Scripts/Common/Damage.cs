@@ -50,10 +50,10 @@ namespace TopDownShooter
                 var otherHealth = other.gameObject.GetComponent<Health>();
                 if (otherHealth != null)
                 {
-                    otherHealth.Damage(DamageValue);
-                    if (_health != null)
-                        _health.Damage(SelfDamage);
+                    otherHealth.Damage(DamageValue);                    
                 }
+                if (_health != null)
+                    _health.Damage(SelfDamage);
                 touchedColliders.Add(other);
             }
         }
