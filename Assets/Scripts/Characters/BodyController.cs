@@ -26,7 +26,6 @@ namespace TopDownShooter
 
         public void SetMovement(Vector3 moveVector)
         {
-            Debug.Log("SetMovement");
             _moveVector = moveVector;
         }
 

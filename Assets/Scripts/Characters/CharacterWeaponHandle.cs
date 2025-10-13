@@ -1,19 +1,24 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace TopDownShooter
 {
     public class CharacterWeaponHandle : CharacterAbility
     {
+        private int _currentWeaponAmmo;
         public int CurrentWeaponAmmo
         { 
             get
             {
+                if (_weaponInstance == null)
+                    return 10;
                 return _weaponInstance.currentMagazine;
             }
             set 
             {
-                _weaponInstance.currentMagazine = value;
+                _currentWeaponAmmo = value;
             }
         }
 
@@ -22,23 +27,61 @@ namespace TopDownShooter
             get; private set;
         }
 
+        private bool _canShoot;
+
         [SerializeField]
         private WeaponAttachment weaponAttachment;
 
+        //[SerializeField]
+        //private Weapon startingWeaponPrefab;
+
         [SerializeField]
-        private Weapon startingWeaponPrefab;
+        private AssetReferenceGameObject startingWeaponReference;
+
+        [SerializeField]
+        [Tooltip("The weapon that the player picks, when dropping the main weapon.")]
+        ///The weapon that the player picks, when dropping the main weapon.
+        private AssetReferenceGameObject defaultWeapon;
 
         private Weapon _weaponInstance;
 
+        private AsyncOperationHandle<GameObject> weaponRefHandle;
+
         public override void Initialize(Character character = null)
         {
-            base.Initialize(character);
-            SetWeapon(startingWeaponPrefab);
+            base.Initialize(character);            
+            SetWeapon(startingWeaponReference);
         }
 
         public void SetWeapon(string weaponString)
         {
-            //TODO
+            _canShoot = false;
+            weaponRefHandle = Addressables.LoadAssetAsync<GameObject>(weaponString);
+            weaponRefHandle.Completed += OnWeaponLoadCompleted;
+        }
+
+        public void SetWeapon(AssetReferenceGameObject weaponRef)
+        {
+            if (!weaponRef.RuntimeKeyIsValid())
+            {
+                Debug.LogError($"Ref Eror: Weapon not loaded: {weaponRef}");
+                return;
+            }
+
+            _canShoot = false;
+            weaponRefHandle = Addressables.LoadAssetAsync<GameObject>(weaponRef);
+            weaponRefHandle.Completed += OnWeaponLoadCompleted;
+        }
+
+        private void OnWeaponLoadCompleted(AsyncOperationHandle<GameObject> asyncOperationHandle)
+        {
+            if (asyncOperationHandle.Status == AsyncOperationStatus.Succeeded)
+            {
+                SetWeapon(asyncOperationHandle.Result.GetComponent<Weapon>());
+                if(_currentWeaponAmmo != 0)
+                    _weaponInstance.currentMagazine = _currentWeaponAmmo;
+                _canShoot = true;
+            }
         }
 
         public void SetWeapon(Weapon weaponPrefab)
@@ -52,6 +95,12 @@ namespace TopDownShooter
             _animator.SetInteger("WeaponID", _weaponInstance.WeaponID);
             _weaponInstance.OnCycleEnd.AddListener(CycleEnd);
             CurrentWeaponName = weaponPrefab.name;
+            _weaponInstance.OnEmptyMagazine.AddListener(SetDefaultWeapon);
+        }
+
+        private void SetDefaultWeapon()
+        {
+            SetWeapon(defaultWeapon);
         }
 
         public void RemoveCurrentWeapon()
@@ -80,7 +129,7 @@ namespace TopDownShooter
 
         public void Shoot()
         {
-            if (_weaponInstance.Shoot())
+            if (Allowed && _canShoot && _weaponInstance.Shoot())
             {
                 _animator.SetBool("Idle", false);
                 _animator.SetTrigger(_weaponInstance.AttackAnimationTrigger);

@@ -54,6 +54,7 @@ namespace TopDownShooter
             Initialize();
         }
 
+        //TODO: Switch to async, so it'd wait for all Addressables to load before saving, for now not saving data from them
         void Initialize()
         {
             if (_animator == null)

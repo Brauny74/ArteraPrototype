@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 5b802b7c-075a-4a57-9698-09ebd86d2fed
+  saveDeath: 1
   _animator: {fileID: 5353241607196452311}
   Movement: {fileID: 0}
   Rotation: {fileID: 0}
@@ -100,7 +101,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Allowed: 1
   weaponAttachment: {fileID: 7986014260145101411}
-  startingWeaponPrefab: {fileID: 648758406495198937, guid: 225b05e72c754144bafc414c8ed12cca, type: 3}
+  startingWeaponReference:
+    m_AssetGUID: 225b05e72c754144bafc414c8ed12cca
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  defaultWeapon:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
 --- !u!114 &6138387978130290221
 MonoBehaviour:
   m_ObjectHideFlags: 0

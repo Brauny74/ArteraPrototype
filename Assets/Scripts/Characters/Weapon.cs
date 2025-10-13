@@ -35,7 +35,8 @@ namespace TopDownShooter
 
         public string AttackAnimationTrigger = "Attack";
 
-        public UnityEvent OnCycleEnd; 
+        public UnityEvent OnCycleEnd;
+        public UnityEvent OnEmptyMagazine;
 
         protected enum WeaponState { Idle, WindUp, Shooting, WindDown }
         protected WeaponState currentWeaponState;
@@ -45,7 +46,7 @@ namespace TopDownShooter
             this.transform.parent = parent;
             this.transform.localPosition = Vector3.zero;
             this.transform.localRotation = Quaternion.identity;
-
+            
             currentMagazine = _maxMagazine;
             currentWeaponState = WeaponState.Idle;
 
@@ -87,7 +88,9 @@ namespace TopDownShooter
         }
         
         public virtual void DropWeapon()
-        { }
+        {
+            
+        }
 
         protected virtual IEnumerator WindUp()
         {
@@ -110,8 +113,11 @@ namespace TopDownShooter
             currentWeaponState = WeaponState.Idle;
             if (_maxMagazine > 0)
             {
-                if(currentMagazine <= 0)
+                if (currentMagazine <= 0)
+                {
+                    OnEmptyMagazine?.Invoke();
                     DropWeapon();
+                }
             }
         }
 
@@ -119,7 +125,7 @@ namespace TopDownShooter
         {}
 
         private void OnDestroy()
-        {
+        {            
             Destroy(WeaponMesh.gameObject);
         }
 
