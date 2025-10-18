@@ -21,12 +21,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 225b05e72c754144bafc414c8ed12cca
-    m_Address: EnemyRifleWeapon
+    m_Address: EnemyRifle
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2cee950d2c2fe9a48a5b60fac181b6b6
-    m_Address: RifleWeapon
+    m_Address: Rifle
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e5e130c0620e7b54ba477ee6a0db6f24
-    m_Address: KnifeWeapon
+    m_Address: Knife
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
